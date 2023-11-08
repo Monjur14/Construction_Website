@@ -12,25 +12,39 @@
   max-width: 1280px;
   margin: auto;
 }
+.section__padding{
+  padding: 0px 2rem;
+}
 
 @media (0px < width <= 360px) {
   .container{
     padding: 0rem 1rem;
+  }
+  .section__padding{
+    padding: 2rem 0rem;
   }
 }
 @media (361px < width <= 430px) {
   .container{
     padding: 0rem 1.2rem;
   }
+  .section__padding{
+    padding: 2rem 0rem;
+  }
 }
 @media (431px < width <= 650px) {
   .container{
     padding: 0rem 1.8rem;
   }
+  .section__padding{
+    padding: 2rem 0rem;
+  }
 }
 @media (651px < width <= 768px) {
   .container{
     padding: 0rem 2rem;
+  }.section__padding{
+    padding: 2.5rem 0rem;
   }
 }
 
@@ -38,14 +52,28 @@
   .container{
     padding: 0rem 2.5rem;
   }
+  .section__padding{
+    padding: 3rem 0rem;
+  }
 }
 @media (1081px < width <= 1190px) {
   .container{
     padding: 0rem 2.7rem;
   }
+  .section__padding{
+    padding: 3.5rem 0rem;
+  }
 }
 @media (1191px < width <= 1300px) {
   .container{
     padding: 0rem 3rem;
+  }
+  .section__padding{
+    padding: 4rem 0rem;
+  }
+}
+@media (1301px < width < 4000px) {
+  .section__padding{
+    padding: 4rem 0rem;
   }
 }

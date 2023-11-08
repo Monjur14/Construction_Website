@@ -5,7 +5,7 @@ const HeroInfo = ({color, tag, title}) => {
         <div className="w-[3.1rem] h-[3.4rem] md:w-[4rem] bg-white absolute left-[-5px] bottom-[-10px]"></div>
       </div>
       <div className="relative">
-        <p className="text-2xl font-bold xsm:text-3xl xsm:mb-1 md:text-4xl">{tag}</p>
+        <p className="text-2xl font-bold xsm:text-3xl mb-1 md:text-4xl">{tag}</p>
         <p className="text-gray md:text-lg">{title}</p>
       </div>
     </div>
