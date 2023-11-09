@@ -35,8 +35,7 @@ const Testimonial = () => {
     <div className="container">
       <div className="section__padding">
             <div>
-                <Heading title={"Our Best Engineers"}/>
-                <p className="text-center mt-4 xsm:mt-5 xsm:text-lg md:text-xl md:mt-7">Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed necessary.</p>
+                <Heading title={"Our Best Engineers"} para={"Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed necessary."}/>
             </div>
             <div className="mt-16">
               <div ref={box} className="flex pl-0 xsm:pl-6 max-w-[1200px] gap-12 lg:gap-16 overflow-x-scroll scrollbar-hidden">

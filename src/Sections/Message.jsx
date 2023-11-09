@@ -2,15 +2,20 @@ import bgimg from "../assets/message.png";
 import quote1 from "../assets/quote-top.png";
 import quote2 from "../assets/quote-bottom.png";
 
+import Heading from "../Components/Heading";
+
 const Message = () => {
   return (
-    <div className="w-full h-screen flex justify-center items-center message">
+    <div className="w-full h-auto flex justify-center items-center message">
       <div className="container">
         <div className="section__padding my-auto flex flex-col gap-4">
-          <div className="w-[25px] md:w-[50px] lg:w-[80px]">
+          <div>
+            <h1 className="font-bold text-center text-3xl xsm:text-4xl md:text-[3rem] text-white mb-6 md:mt-8 lg:mt-12">Message from CEO</h1>
+          </div>
+          <div className="w-[25px] md:w-[50px] lg:w-[70px]">
             <img src={quote1} alt="" />
           </div>
-          <div className="ml-6 mr-6 md:ml-12 md:mr-12 lg:ml-20 lg:mr-[5rem] text-justify text-base xsm:text-lg md:text-xl lg:text-2xl text-white">
+          <div className="ml-6 mr-6 md:ml-12 md:mr-12 lg:ml-20 lg:mr-[5rem] text-justify text-sm xsm:text-lg md:text-xl lg:text-2xl text-white">
             <h1>
               Shewing met parties gravity husband six pleased. On to no kind do
               next feel held walk. Last own loud and knew give gay four.
@@ -28,7 +33,7 @@ const Message = () => {
               yourself at by pleasure of children be.
             </h1>
           </div>
-          <div className="self-end w-[25px] md:w-[50px] lg:w-[80px]">
+          <div className="self-end w-[25px] md:w-[50px] lg:w-[70px]">
             <img src={quote2} alt="" />
           </div>
         </div>
