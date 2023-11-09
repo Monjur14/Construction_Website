@@ -15,6 +15,40 @@
 .section__padding{
   padding: 0px 2rem;
 }
+.box_shadow{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  width: 0.2rem; /* You can adjust the width as needed */
+}
+
+.scrollbar-hidden::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Make the thumb transparent */
+}
+
+/* Firefox scrollbar styles */
+.scrollbar-hidden * {
+  scrollbar-width: none; /* Hide the scrollbar on Firefox */
+}
+
+.scrollbar-hidden *::-webkit-scrollbar {
+  width: 0.2rem; /* You can adjust the width as needed */
+}
+
+.scrollbar-hidden *::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Make the thumb transparent */
+}
+.btn_shadow{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.message{
+  background-image: url(./assets/message.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
 
 @media (0px < width <= 360px) {
   .container{
